@@ -1,0 +1,67 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-image: url(../img/background.svg);
+    background-size: cover; 
+}
+
+.container {
+    padding-top: 350px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    padding: 30px 0;
+    border: solid 4px transparent;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.link:hover {
+    transform: scale(1.2);
+}
+
+.link:focus {
+    transform: scale(1.2);
+    outline: none;
+}
+
+.link_1 {
+    background: rgb(219, 71, 0)
+}
+
+.link_1:hover {
+    background: rgb(185, 62, 5);
+}
+
+.link_1:active {
+    background: rgb(121, 41, 5);
+}
+
+.link_2 {
+    background: rgb(218, 153, 1);
+}
+
+.link_2:hover {
+    background: rgb(165, 116, 3);
+}
+
+.link_2:active {
+    background: rgb(114, 80, 2);
+}

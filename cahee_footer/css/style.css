@@ -1,0 +1,186 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+    font-family: "Raleway", sans-serif;
+}
+
+.footer-wrapper {
+    display: inline-block;
+    width: 100%;
+    height: 956px;
+    padding-top: 80px;
+    background: url(../img/BG.jpg) center center;
+    background-size: cover;
+    color: rgb(38, 38, 38);
+    position: relative;
+}
+
+.footer__footer-title {
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.footer__footer-subtitle {
+    margin: 0 auto 45px;
+}
+
+.footer-subtitle {
+    width: 346px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 558px;
+}
+
+.form__input {
+    margin-bottom: 16px;
+}
+
+.input {
+    padding: 16px 22px;
+    height: 50px;
+    background: rgba(0, 196, 196, 0.5);
+    border: solid transparent;
+    border-width: 0 0 0 6px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.input_textarea {
+    height: 250px;
+    resize: none;
+}
+
+input::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+textarea::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.input:hover {
+    background: rgb(0, 196, 196);
+}
+
+.input:focus {
+    border-color: rgb(53, 91, 130);
+    background: rgb(0, 196, 196);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    background: rgb(85, 133, 162);
+    border: none;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(70, 108, 133);
+}
+
+.button:focus {
+    outline: none;
+    background: rgb(70, 108, 133);
+}
+
+.button:active {
+    background: rgb(55, 86, 107);
+}
+
+.form-container__form-desc {
+    width: 558px;
+    padding-left: 121px;
+}
+
+.form-desc__desc-block {
+    margin-bottom: 16px;
+}
+
+.desc-block {
+    height: 50px;
+}
+
+.desc-block__title {
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.desc-block__info {
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(38, 38, 38);
+    text-decoration: none;
+}
+
+.footer__footer-block {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-block {
+    height: 90px;
+    width: 100%;
+    background: rgb(38, 38, 38);
+    color: rgb(185, 185, 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footer__logo {
+    margin: 0 345px 0 280px;
+}
+
+.logo {
+    width: 64px;
+    height: 27px;
+}
+
+.footer-block__desc {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.footer-block__desc_red {
+    font-weight: 700;
+    color: rgb(255, 43, 88);
+}
